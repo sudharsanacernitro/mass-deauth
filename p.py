@@ -24,8 +24,7 @@ for opt, arg in opts:
 print(l)
 print(f)
 command="timeout 4s aireplay-ng -0 10 -a "+f+" wlp0s20f3mon"
-#os.popen("sudo -S %s"%(command), 'w').write('Sudharsan@ubuntu')
-password = "Sudharsan@ubuntu"
+password = "systempassword"
 
 # Construct the sudo command
 sudo_command = f"echo {password} | sudo -S {command}"
